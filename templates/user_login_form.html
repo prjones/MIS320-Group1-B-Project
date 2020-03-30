@@ -1,8 +1,12 @@
-{%extends "practicewindow.html"%}
-{%block content%}
-  <h1>Login to use the Ryder Application.</h1>
-  <h2>User Login</h2>
-  <form action="" method="POST">
+<!--
+    Created by Peter Jones on 3/24.
+    Copyright © 2020 Peter Jones. All rights reserved.
+
+-->
+{%extends "practicewindow.html"%} {%block content%}
+<h1>Login to use the Ryder Application.</h1>
+<h2>User Login</h2>
+<form action="" method="POST">
     <label>Username:</label><input type="text" value="" name="user" required/>
     <br/>
     <label>Password:</label><input type="password" value="" name="password" required/>
@@ -14,5 +18,5 @@
     </label>
     <br/>
     <br/>
-  </form>
+</form>
 {%endblock%}

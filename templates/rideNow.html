@@ -1,7 +1,11 @@
-{%extends "user_login_ok.html"%}
-{%block content%}
-  <h1>Ride Now</h1>
-  <form action="" method="POST">
+<!--
+    Created by Peter Jones on 3/24.
+    Copyright © 2020 Peter Jones. All rights reserved.
+
+-->
+{%extends "user_login_ok.html"%} {%block content%}
+<h1>Ride Now</h1>
+<form action="" method="POST">
     <label>Start Location:</label><input type="text" value="" name="startlocation" required/>
     <br/>
     <label>End Location:</label><input type="text" value="" name="endlocation" required/>
@@ -10,5 +14,5 @@
     <br/>
     <br/>
     <br/>
-  </form>
+</form>
 {%endblock%}
